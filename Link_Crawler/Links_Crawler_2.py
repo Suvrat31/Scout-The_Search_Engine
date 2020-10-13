@@ -1,3 +1,5 @@
+#Much faster than Version 1
+
 %%time
 import urllib.request as ur
 import lxml.html
