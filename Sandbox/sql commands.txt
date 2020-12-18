@@ -1,0 +1,13 @@
+CREATE TABLE links(
+    LINKID int AUTO_INCREMENT,
+    LINK varchar(MAX),
+    COUNT INT,
+    date varchar(255),
+    tokeniszed int
+);
+
+INSERT INTO linkstest1 (link, count)
+VALUES ('google2.com', 1);
+
+select * from linkstest1
+
